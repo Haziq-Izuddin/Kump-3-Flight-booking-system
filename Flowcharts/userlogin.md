@@ -1,5 +1,5 @@
 ``` mermaid
-flowchart LR
+flowchart TD
     Start([Start]) --> Input1[/Input Username & Password/]
     Input1 --> Process1[Check Database Records]
     Process1 --> Decision{Credentials Valid?}
