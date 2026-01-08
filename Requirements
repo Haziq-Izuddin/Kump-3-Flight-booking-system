@@ -1,6 +1,9 @@
 1. User registration & Login system 
+
 2. Search available flights 
+
 3. Select flight & Seat 
+As available flights are found, users will be prompted to select a specific flight from the results. Upon selection, the system retrieves the current seat map from the database and displays the layout. The user can view which seats are "Available" or "Occupied". When a user clicks a seat, the system verifies its status in real-time. If available, the seat is locked to prevent double-booking; if not, an error is shown.
 
 4. Payment processing 
 The system will be able to enable the user to pay the flight booking they chose. Once the user has made the choice of the flight, the system will show a payment page where the user will be expected to key in details like the card number or wherever the user has bank accounts online. The system verifies the payment information entered and forwards payment request to payment gateway. In case of a successful payment, the system makes a confirmation of the booking and the user is provided with a message of the payment success. In case of failure of payment or invalidity of payment details, then the system gives a suitable message of error and provides the user with an option of re-making the payment.
